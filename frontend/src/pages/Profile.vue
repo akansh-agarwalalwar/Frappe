@@ -41,12 +41,12 @@
 					<img
 						v-if="profile.data.user_image"
 						:src="profile.data.user_image"
-						class="object-cover h-[100px] w-[100px] rounded-full border-4 border-white object-cover"
+						class="object-cover h-[100px] w-[100px] rounded-full border-4 border-white "
 					/>
 					<UserAvatar
 						v-else
 						:user="profile.data"
-						class="object-cover h-[100px] w-[100px] rounded-full border-4 border-white object-cover"
+						class=" h-[100px] w-[100px] rounded-full border-4 border-white object-cover"
 					/>
 				</div>
 				<div class="ml-6">

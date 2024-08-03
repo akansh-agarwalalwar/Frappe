@@ -435,7 +435,7 @@ export function getSidebarLinks() {
 			activeFor: ['Batches', 'BatchDetail', 'Batch', 'BatchCreation'],
 		},
 		{
-			label: 'Certified Participants',
+			label: 'Certified Participant',
 			icon: 'GraduationCap',
 			to: 'CertifiedParticipants',
 			activeFor: ['CertifiedParticipants'],
@@ -446,12 +446,7 @@ export function getSidebarLinks() {
 			to: 'Jobs',
 			activeFor: ['Jobs', 'JobDetail'],
 		},
-		{
-			label: 'Statistics',
-			icon: 'TrendingUp',
-			to: 'Statistics',
-			activeFor: ['Statistics'],
-		},
+		
 	]
 }
 
